@@ -4,6 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
+    <SignAssembly>True</SignAssembly>
+
+    <AssemblyOriginatorKeyFile>..\signature.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>

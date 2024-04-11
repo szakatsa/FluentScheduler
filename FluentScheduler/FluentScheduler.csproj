@@ -11,12 +11,14 @@
     <RepositoryUrl>https://github.com/fluentscheduler/FluentScheduler</RepositoryUrl>
     <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
     <Version>5.5.1</Version>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\signature.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="../Logo/logo-200x200.png" Pack="true" PackagePath="" />
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
-      <_Parameter1>FluentScheduler.UnitTests</_Parameter1>
+      <_Parameter1>FluentScheduler.UnitTests,PublicKey=00240000048000009400000006020000002400005253413100040000010001005dbc587bf964e1cf3ac22cef5fff52e6906933b4f899d3c83849b3562c621774179b14919c3c71a5ddcea8d914aeb4813e07c1f9785ad879ef3240f84dd72584db5acc009683599c15a4d56904db95863f5182ad4c9d2fac9a0734cd55b25dc680dd55114f50fadf55b435ea0016ad66f59e59e3888b563c756093a0c9db8ea1</_Parameter1>
     </AssemblyAttribute>
   </ItemGroup>
 
